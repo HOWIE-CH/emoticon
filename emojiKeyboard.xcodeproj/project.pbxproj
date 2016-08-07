@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6290461D5338790009B42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6290451D5338790009B42F /* AppDelegate.swift */; };
+		5C6290481D5338790009B42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6290471D5338790009B42F /* ViewController.swift */; };
+		5C62904B1D5338790009B42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6290491D5338790009B42F /* Main.storyboard */; };
+		5C62904D1D5338790009B42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C62904C1D5338790009B42F /* Assets.xcassets */; };
+		5C6290501D5338790009B42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C62904E1D5338790009B42F /* LaunchScreen.storyboard */; };
+		5C6290581D5338AA0009B42F /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C6290571D5338AA0009B42F /* Emoticons.bundle */; };
+		5C8F3C191D575FB3008BFAC7 /* EmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C101D575FB3008BFAC7 /* EmoticonCell.swift */; };
+		5C8F3C1A1D575FB3008BFAC7 /* EmoticonFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C111D575FB3008BFAC7 /* EmoticonFlowLayout.swift */; };
+		5C8F3C1B1D575FB3008BFAC7 /* EmoticonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C121D575FB3008BFAC7 /* EmoticonItem.swift */; };
+		5C8F3C1C1D575FB3008BFAC7 /* EmoticonKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C131D575FB3008BFAC7 /* EmoticonKeyboardView.swift */; };
+		5C8F3C1D1D575FB3008BFAC7 /* EmoticonKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F3C141D575FB3008BFAC7 /* EmoticonKeyboardView.xib */; };
+		5C8F3C1E1D575FB3008BFAC7 /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C151D575FB3008BFAC7 /* EmoticonPackage.swift */; };
+		5C8F3C1F1D575FB3008BFAC7 /* EmoticonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C161D575FB3008BFAC7 /* EmoticonTool.swift */; };
+		5C8F3C201D575FB3008BFAC7 /* TextAttachmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C171D575FB3008BFAC7 /* TextAttachmet.swift */; };
+		5C8F3C211D575FB3008BFAC7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F3C181D575FB3008BFAC7 /* TextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C6290421D5338790009B42F /* emojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6290451D5338790009B42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6290471D5338790009B42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C62904A1D5338790009B42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C62904C1D5338790009B42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C62904F1D5338790009B42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6290511D5338790009B42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6290571D5338AA0009B42F /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		5C8F3C101D575FB3008BFAC7 /* EmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonCell.swift; sourceTree = "<group>"; };
+		5C8F3C111D575FB3008BFAC7 /* EmoticonFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonFlowLayout.swift; sourceTree = "<group>"; };
+		5C8F3C121D575FB3008BFAC7 /* EmoticonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonItem.swift; sourceTree = "<group>"; };
+		5C8F3C131D575FB3008BFAC7 /* EmoticonKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonKeyboardView.swift; sourceTree = "<group>"; };
+		5C8F3C141D575FB3008BFAC7 /* EmoticonKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoticonKeyboardView.xib; sourceTree = "<group>"; };
+		5C8F3C151D575FB3008BFAC7 /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		5C8F3C161D575FB3008BFAC7 /* EmoticonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonTool.swift; sourceTree = "<group>"; };
+		5C8F3C171D575FB3008BFAC7 /* TextAttachmet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAttachmet.swift; sourceTree = "<group>"; };
+		5C8F3C181D575FB3008BFAC7 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C62903F1D5338790009B42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6290391D5338790009B42F = {
+			isa = PBXGroup;
+			children = (
+				5C6290441D5338790009B42F /* emojiKeyboard */,
+				5C6290431D5338790009B42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6290431D5338790009B42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6290421D5338790009B42F /* emojiKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6290441D5338790009B42F /* emojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F3C0F1D575FB3008BFAC7 /* Emoticon */,
+				5C6290571D5338AA0009B42F /* Emoticons.bundle */,
+				5C6290451D5338790009B42F /* AppDelegate.swift */,
+				5C6290471D5338790009B42F /* ViewController.swift */,
+				5C6290491D5338790009B42F /* Main.storyboard */,
+				5C62904C1D5338790009B42F /* Assets.xcassets */,
+				5C62904E1D5338790009B42F /* LaunchScreen.storyboard */,
+				5C6290511D5338790009B42F /* Info.plist */,
+			);
+			path = emojiKeyboard;
+			sourceTree = "<group>";
+		};
+		5C8F3C0F1D575FB3008BFAC7 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F3C101D575FB3008BFAC7 /* EmoticonCell.swift */,
+				5C8F3C111D575FB3008BFAC7 /* EmoticonFlowLayout.swift */,
+				5C8F3C121D575FB3008BFAC7 /* EmoticonItem.swift */,
+				5C8F3C131D575FB3008BFAC7 /* EmoticonKeyboardView.swift */,
+				5C8F3C141D575FB3008BFAC7 /* EmoticonKeyboardView.xib */,
+				5C8F3C151D575FB3008BFAC7 /* EmoticonPackage.swift */,
+				5C8F3C161D575FB3008BFAC7 /* EmoticonTool.swift */,
+				5C8F3C171D575FB3008BFAC7 /* TextAttachmet.swift */,
+				5C8F3C181D575FB3008BFAC7 /* TextView.swift */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6290411D5338790009B42F /* emojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6290541D5338790009B42F /* Build configuration list for PBXNativeTarget "emojiKeyboard" */;
+			buildPhases = (
+				5C62903E1D5338790009B42F /* Sources */,
+				5C62903F1D5338790009B42F /* Frameworks */,
+				5C6290401D5338790009B42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emojiKeyboard;
+			productName = emojiKeyboard;
+			productReference = 5C6290421D5338790009B42F /* emojiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C62903A1D5338790009B42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Howie;
+				TargetAttributes = {
+					5C6290411D5338790009B42F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6J6DMC4ZS8;
+					};
+				};
+			};
+			buildConfigurationList = 5C62903D1D5338790009B42F /* Build configuration list for PBXProject "emojiKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6290391D5338790009B42F;
+			productRefGroup = 5C6290431D5338790009B42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6290411D5338790009B42F /* emojiKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6290401D5338790009B42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8F3C1D1D575FB3008BFAC7 /* EmoticonKeyboardView.xib in Resources */,
+				5C6290501D5338790009B42F /* LaunchScreen.storyboard in Resources */,
+				5C6290581D5338AA0009B42F /* Emoticons.bundle in Resources */,
+				5C62904D1D5338790009B42F /* Assets.xcassets in Resources */,
+				5C62904B1D5338790009B42F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C62903E1D5338790009B42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8F3C191D575FB3008BFAC7 /* EmoticonCell.swift in Sources */,
+				5C8F3C1F1D575FB3008BFAC7 /* EmoticonTool.swift in Sources */,
+				5C8F3C1C1D575FB3008BFAC7 /* EmoticonKeyboardView.swift in Sources */,
+				5C8F3C1E1D575FB3008BFAC7 /* EmoticonPackage.swift in Sources */,
+				5C6290481D5338790009B42F /* ViewController.swift in Sources */,
+				5C8F3C201D575FB3008BFAC7 /* TextAttachmet.swift in Sources */,
+				5C8F3C1B1D575FB3008BFAC7 /* EmoticonItem.swift in Sources */,
+				5C6290461D5338790009B42F /* AppDelegate.swift in Sources */,
+				5C8F3C1A1D575FB3008BFAC7 /* EmoticonFlowLayout.swift in Sources */,
+				5C8F3C211D575FB3008BFAC7 /* TextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C6290491D5338790009B42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C62904A1D5338790009B42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C62904E1D5338790009B42F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C62904F1D5338790009B42F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6290521D5338790009B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6290531D5338790009B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6290551D5338790009B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = emojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youthcul.emojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C6290561D5338790009B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = emojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youthcul.emojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C62903D1D5338790009B42F /* Build configuration list for PBXProject "emojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6290521D5338790009B42F /* Debug */,
+				5C6290531D5338790009B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6290541D5338790009B42F /* Build configuration list for PBXNativeTarget "emojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6290551D5338790009B42F /* Debug */,
+				5C6290561D5338790009B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C62903A1D5338790009B42F /* Project object */;
+}
